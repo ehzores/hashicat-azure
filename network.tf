@@ -2,14 +2,14 @@
 #  features {}
 #}
 
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = ">=3.41.0"
-    }
-  }
-}
+#terraform {
+#  required_providers {
+#    azurerm = {
+#      source  = "hashicorp/azurerm"
+#      version = ">=3.41.0"
+#    }
+#  }
+#}
 
 resource "azurerm_resource_group" "example" {
   name     = "my-resources"
